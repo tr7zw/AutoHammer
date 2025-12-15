@@ -1,0 +1,4 @@
+configui.title = Auto Hammer config
+errors.nogroup = This item does not have any assigned group.
+errors.noitem = You are not holding a valid item.
+button.reset = Clear List
