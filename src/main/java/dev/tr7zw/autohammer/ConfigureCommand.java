@@ -9,6 +9,7 @@ import com.hypixel.hytale.server.core.entity.entities.*;
 import com.hypixel.hytale.server.core.universe.*;
 import com.hypixel.hytale.server.core.universe.world.*;
 import com.hypixel.hytale.server.core.universe.world.storage.*;
+import com.hypixel.hytale.protocol.packets.interface_.*;
 
 import javax.annotation.*;
 import java.util.concurrent.*;

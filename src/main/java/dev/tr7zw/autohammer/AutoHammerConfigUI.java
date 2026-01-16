@@ -8,20 +8,16 @@ import com.hypixel.hytale.protocol.*;
 import com.hypixel.hytale.server.core.*;
 import com.hypixel.hytale.server.core.asset.type.item.config.BlockGroup;
 import com.hypixel.hytale.server.core.asset.type.item.config.Item;
-import com.hypixel.hytale.server.core.asset.util.*;
 import com.hypixel.hytale.server.core.entity.entities.*;
 import com.hypixel.hytale.server.core.entity.entities.player.pages.*;
-import com.hypixel.hytale.server.core.inventory.*;
 import com.hypixel.hytale.server.core.ui.*;
 import com.hypixel.hytale.server.core.ui.builder.*;
 import com.hypixel.hytale.server.core.universe.*;
 import com.hypixel.hytale.server.core.universe.world.storage.*;
-import org.bson.*;
+import com.hypixel.hytale.protocol.packets.interface_.*;
 import org.jetbrains.annotations.*;
 
 import javax.annotation.*;
-import java.lang.reflect.*;
-import java.util.*;
 
 public class AutoHammerConfigUI extends InteractiveCustomUIPage<AutoHammerConfigUI.ConfigGuiData> {
 

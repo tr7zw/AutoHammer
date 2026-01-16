@@ -27,7 +27,7 @@ java {
 
 val generateMetadataFile = tasks.register("generateMetadataFile", ProcessResources::class) {
     var replaceProperties = mapOf(
-        "plugin_group" to project.group,
+        "plugin_group" to findProperty("plugin_author"),
         "plugin_name" to project.name,
         "plugin_version" to project.version,
         "server_version" to findProperty("server_version"),
@@ -56,6 +56,7 @@ tasks.named("sourcesJar") {
 
 hytale {
     syncTask = generateMetadataFile
+    updateChannel = "release"
 }
 
 //sourceSets.main.configure {
