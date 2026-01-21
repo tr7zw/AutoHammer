@@ -1,0 +1,22 @@
+{
+    "Group": "tr7zw",
+    "Name": "AutoHammer",
+    "Version": "0.1.0",
+    "Description": "Randomize blocks on placement.",
+    "Authors": [
+        {
+            "Name": "tr7zw"
+        }
+    ],
+    "Website": "https://tr7zw.dev",
+    "ServerVersion": "*",
+    "Dependencies": {
+        "Hytale:EntityModule": "*"
+    },
+    "OptionalDependencies": {
+        
+    },
+    "DisabledByDefault": false,
+    "IncludesAssetPack": true,
+    "Main": "dev.tr7zw.autohammer.AutoHammerPlugin"
+}
