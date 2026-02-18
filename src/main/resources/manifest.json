@@ -1,7 +1,7 @@
 {
     "Group": "tr7zw",
     "Name": "AutoHammer",
-    "Version": "0.1.0",
+    "Version": "0.1.1",
     "Description": "Randomize blocks on placement.",
     "Authors": [
         {
@@ -9,7 +9,7 @@
         }
     ],
     "Website": "https://tr7zw.dev",
-    "ServerVersion": "*",
+    "ServerVersion": "2026.02.18-f3b8fff95",
     "Dependencies": {
         "Hytale:EntityModule": "*"
     },
